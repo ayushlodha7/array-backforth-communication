@@ -1,0 +1,11 @@
+
+name = "simple_post"
+
+[dependencies]
+http = { git = "https://github.com/fortran-lang/http-client.git" }
+stdlib = "*"
+
+
+[[executable]]
+name = "simple_post"
+main = "simple_post.f90"
